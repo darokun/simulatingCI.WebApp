@@ -13,4 +13,4 @@ To use:
 3. Click the **Submit** button.
 4. Enjoy!
 
-License: [MIT](https://gist.github.com/darokun/d92039ee049da5ff92ba#file-license)
+License: [MIT](https://github.com/darokun/simulatingCI.WebApp/blob/master/LICENSE)
