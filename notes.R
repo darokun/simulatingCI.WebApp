@@ -1,9 +1,8 @@
 install.packages("shiny")
-install.packages("PASWR")
-library(PASWR)
 library(shiny)
 
-runApp("appFilePath")
+
+runApp("filepath")
 
 
 # variables:
@@ -14,7 +13,8 @@ library(devtools)
 devtools::install_github('rstudio/shinyapps')
 devtools::install_github('rstudio/packrat')
 
-# shinyapps::setAccountInfo(name='username', token='token.number', secret='secret.key')
+# shinyapps::setAccountInfo(name='user.name', token='token', secret='secret.key')
 
 library(shinyapps)
-shinyapps::deployApp("appFilePath")
+shinyapps::deployApp("filepath")
+

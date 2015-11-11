@@ -1,8 +1,8 @@
-shinyUI(
-  pageWithSidebar(
+shinyUI(   
+  pageWithSidebar(     
     # Application title
     headerPanel("Confidence Intervals"),
-    
+      
     sidebarPanel(
       numericInput("samples", "Number of samples to draw", 100, min = 0, max = 500, step = 10),
       numericInput("n", "Sample size", 30, min = 0, max = 1000, step = 10),
